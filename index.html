@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>聪聪数学岛</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="manifest" href="manifest.webmanifest">
+
+</head>
+
+<body>
+
+<div class="game-container">
+
+<header class="top-bar">
+
+<div class="logo">
+🌱 聪聪数学岛
+</div>
+
+<div class="score">
+⭐ <span id="score">0</span>
+</div>
+
+</header>
+
+
+<section class="hero">
+
+<div class="cloud cloud1">
+☁️
+</div>
+
+<div class="cloud cloud2">
+☁️
+</div>
+
+
+<div class="robot">
+
+🤖
+
+</div>
+
+
+<h1>
+欢迎来到聪聪数学岛
+</h1>
+
+
+<p>
+三年级数学上册知识探险开始啦！
+</p>
+
+
+<button onclick="startGame()">
+
+开始探索
+
+</button>
+
+
+</section>
+
+
+
+<section class="islands">
+
+
+<div class="island" onclick="openLesson('observe')">
+
+👀
+
+<h3>
+观察物体岛
+</h3>
+
+<p>
+从不同方向认识物体
+</p>
+
+</div>
+
+
+
+<div class="island" onclick="openLesson('calculate')">
+
+🚌
+
+<h3>
+混合运算岛
+</h3>
+
+<p>
+掌握运算顺序
+</p>
+
+</div>
+
+
+
+
+<div class="island" onclick="openLesson('length')">
+
+📏
+
+<h3>
+长度探险岛
+</h3>
+
+<p>
+毫米、分米、千米
+</p>
+
+</div>
+
+
+
+
+<div class="island" onclick="openLesson('multiply')">
+
+🚀
+
+<h3>
+乘法能源岛
+</h3>
+
+<p>
+多位数乘一位数
+</p>
+
+</div>
+
+
+
+<div class="island" onclick="openLesson('angle')">
+
+📐
+
+<h3>
+线角机械城
+</h3>
+
+<p>
+认识线和角
+</p>
+
+</div>
+
+
+
+
+<div class="island" onclick="openLesson('fraction')">
+
+🍕
+
+
+<h3>
+分数美食街
+</h3>
+
+<p>
+认识简单分数
+</p>
+
+</div>
+
+
+</section>
+
+
+
+<section id="lessonPanel" class="lesson-panel">
+
+<h2>
+请选择一个数学岛开始学习
+</h2>
+
+
+<p>
+聪聪机器人会陪你一起挑战！
+</p>
+
+
+</section>
+
+
+</div>
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
