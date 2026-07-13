@@ -1,0 +1,18 @@
+{
+  "name": "聪聪数学岛",
+  "short_name": "数学岛",
+  "description": "三年级数学上册快乐学习小游戏",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#eaf7ff",
+  "theme_color": "#1677ff",
+  "orientation": "portrait",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
